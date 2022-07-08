@@ -12,6 +12,10 @@ const logger = morgan("dev")
 
 const app = express()
 
+//ejs - js 연결
+app.set("views", "./views")
+app.set("view engine", "ejs")
+
 app.use(logger)
 //form-data를 해석하는 라이브러리
 app.use(express.urlencoded({ extended: true }))
@@ -22,13 +26,23 @@ app.use(cookieParser())
 app.use("/login", express.static("login.html"))
 app.use("/main", express.static("main.html"))
 
+const username = document.querySelector("#name")
+console.log(username)
+
 app.get("/", async (req, res) => {
   res.sendFile(__dirname + '/login.html')
 })
-app.get(`/main`, async (req, res) => {
-  console.log(req.query)
-  const username = document.querySelector("li")
-  username = req.query.username
+app.get("/main", async (req, res) => {
+  res.sendFile(__dirname + "/main.html")
+  console.log("req@@@@", req.query)
+  const username = req.query.username
+  const password = req.query.password
+  console.log(document.querySelector("#name"))
+  // let username
+  // if (process.browser) {
+  //   username = document.querySelector("#name")
+  // }
+  // console.log("username", username)
 })
 
 app.post("/login", async (req, res) => {
@@ -53,7 +67,7 @@ app.post("/login", async (req, res) => {
       // }))
       // console.log("res####", res)
     } else {
-      res.redirect("/")
+      return res.redirect("/")
     }
   } catch (err) {
     console.log("에러###", err)
@@ -61,4 +75,6 @@ app.post("/login", async (req, res) => {
 })
 
 app.listen(PORT, () => console.log(`http://localhost:${PORT}`))
+
+module.exports = app
 
