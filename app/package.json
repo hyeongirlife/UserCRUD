@@ -17,8 +17,8 @@
     "url": "https://github.com/LeeHyeongeol/UserCRUD/issues"
   },
   "homepage": "https://github.com/LeeHyeongeol/UserCRUD#readme",
-  
   "dependencies": {
+    "body-parser": "^1.20.0",
     "cookie-parser": "^1.4.6",
     "cookieparser": "^0.1.0",
     "cors": "^2.8.5",

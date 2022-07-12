@@ -1,13 +1,27 @@
 "use strict"
+const User = require('../../../models/User')
+const UserStorage = require("../../../models/UserStorage")
 
-const home = (req, res) => {
-  res.render("home/index")
+// const users = {
+//   id: ["london", "roma", "florence"],
+//   password: ['1234', '5678', '9101112']
+// }
+const output = {
+  home: (req, res) => {
+    res.render("home/index")
+  }
+  ,
+  login: (req, res) => {
+    res.render("home/login")
+  },
+}
+const process = {
+  login: (req, res) => {
+    const user = new User(req.body);
+    const response = user.login()
+    console.log(req)
+    return res.json(response)
+  }
 }
 
-const login = (req, res) => {
-  res.render("home/login")
-}
-module.exports = {
-  home,
-  login
-}
+module.exports = { output, process }

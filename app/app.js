@@ -14,15 +14,15 @@
 
 const express = require("express")
 const app = express()
-const bodyparser = require("body-parser")
+// const bodyparser = require("body-parser")
 const PORT = process.env.PORT || 8080
 const home = require("./src/routes/home")
 
 // url을 "/"으로 이동하게 되면 home 메소드를 실행하게 된다.
-app.use("/", home)
 app.use(express.static(`${__dirname}/src/public`))
-
-
+app.use(express.json())
+// app.use(express.urlencoded({ extended: true }))
+app.use("/", home)
 
 //앱 세팅
 app.set("views", "./src/views")
