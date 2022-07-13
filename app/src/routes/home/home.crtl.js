@@ -21,7 +21,7 @@ const process = {
     const user = new User(req.body);
     const response = user.login()
     console.log(response)
-    // return res.json(response)
+    return res.json(response)
   }
 }
 
