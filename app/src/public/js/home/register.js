@@ -1,19 +1,24 @@
 "use strict"
 
 const id = document.querySelector("#id")
+const name = document.querySelector("#name")
 const password = document.querySelector("#password")
-const loginButton = document.querySelector("#button")
+const registerButton = document.querySelector("#button")
+const confirmPassword = document.querySelector("#confirm-password")
 
-loginButton.addEventListener("click", login)
+registerButton.addEventListener("click", register)
 
-function login() {
+function register() {
   const req = {
     id: id.value,
-    password: password.value
+    name: name.value,
+    password: password.value,
+    confirmPassword: confirmPassword.value
   }
   console.log("stringifyreq", JSON.stringify(req))
   console.log("req", req)
-  fetch("/login", {
+
+  fetch("/register", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
