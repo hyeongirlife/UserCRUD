@@ -8,10 +8,11 @@ class User {
   login() {
     const body = this.body
     const { id, password } = UserStorage.getUserInfo(body.id)
+    // console.log(id, password)
 
     if (id) {
       if (id === body.id && password === body.password) {
-        return { success: true }
+        return { success: true, message: "성공적으로 로그인 되었습니다." }
       }
       return { success: false, message: "비밀번호가 틀렸습니다." }
     }

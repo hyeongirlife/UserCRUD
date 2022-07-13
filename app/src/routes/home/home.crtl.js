@@ -17,10 +17,11 @@ const output = {
 }
 const process = {
   login: (req, res) => {
+    //user 인스턴스 생성
     const user = new User(req.body);
     const response = user.login()
-    console.log(req)
-    return res.json(response)
+    console.log(response)
+    // return res.json(response)
   }
 }
 
