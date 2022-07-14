@@ -28,6 +28,15 @@ class UserStorage {
     }, {});
     return userInfo
   }
+  static save(userInfo) {
+    //기존에 db에 있는 정보인지 확인
+    const users = this.#users
+    users.id.push(userInfo.id)
+    users.name.push(userInfo.name)
+    users.password.push(userInfo.password)
+    console.log(users);
+    return { success: true }
+  }
 }
 
 

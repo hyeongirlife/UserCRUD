@@ -1,7 +1,7 @@
 "use strict"
 
 const id = document.querySelector("#id")
-const name = document.querySelector("#name")
+const username = document.querySelector("#name")
 const password = document.querySelector("#password")
 const registerButton = document.querySelector("#button")
 const confirmPassword = document.querySelector("#confirm-password")
@@ -9,11 +9,16 @@ const confirmPassword = document.querySelector("#confirm-password")
 registerButton.addEventListener("click", register)
 
 function register() {
+  if (!id) {
+    return alert("아이디를 입력하십시오")
+  }
+  if (password !== confimPassword) {
+    return alert("비밀번호가 일치하지 않습니다.")
+  }
   const req = {
     id: id.value,
-    name: name.value,
+    name: username.value,
     password: password.value,
-    confirmPassword: confirmPassword.value
   }
   console.log("stringifyreq", JSON.stringify(req))
   console.log("req", req)
@@ -23,8 +28,9 @@ function register() {
     headers: {
       "Content-Type": "application/json"
     },
-    body: JSON.stringify(req)
-  }).then(res => res.json())
+    body: JSON.stringify(req),
+  })
+    .then(res => res.json())
     .then(res => {
       if (res.success) {
         location.href = "/"
@@ -34,6 +40,6 @@ function register() {
       }
     })
     .catch(err => {
-      console.log(err)
+      console.log("err", err)
     })
 }
