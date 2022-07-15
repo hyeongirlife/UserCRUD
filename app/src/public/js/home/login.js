@@ -13,6 +13,7 @@ function login() {
   }
   console.log("stringifyreq", JSON.stringify(req))
   console.log("req", req)
+
   fetch("/login", {
     method: "POST",
     headers: {
@@ -21,6 +22,7 @@ function login() {
     body: JSON.stringify(req)
   }).then(res => res.json())
     .then(res => {
+      console.log(res)
       if (res.success) {
         location.href = "/"
         alert(res.message)

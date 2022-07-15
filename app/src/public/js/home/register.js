@@ -12,7 +12,7 @@ function register() {
   if (!id) {
     return alert("아이디를 입력하십시오")
   }
-  if (password !== confimPassword) {
+  if (password.value !== confirmPassword.value) {
     return alert("비밀번호가 일치하지 않습니다.")
   }
   const req = {
@@ -33,13 +33,11 @@ function register() {
     .then(res => res.json())
     .then(res => {
       if (res.success) {
-        location.href = "/"
-        alert(res.message)
+        location.href = "/login"
       } else {
         alert(res.message)
       }
     })
-    .catch(err => {
-      console.log("err", err)
-    })
+    .catch(err => console.log(err))
+
 }

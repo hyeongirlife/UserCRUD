@@ -1,53 +1,31 @@
 'use strict'
-const fs = require("fs").promises;
+const { promiseImpl } = require('ejs');
+const db = require("../src/config/db");
 
 class UserStorage {
-  // #는 변수를 은닉화 해서 외부에서 자유롭게 참조할 수 없도록 함.
-  //은닉화 메소드는 클래스 맨 위로 올리는 것이 코드 컨벤션!
-  static #getUserInfo(data, id) {
-    const users = JSON.parse(data);
-    const idx = users.id.indexOf(id)
-    const usersKeys = Object.keys(users);
-    const userInfo = usersKeys.reduce((newUser, info) => {
-      newUser[info] = users[info][idx];
-      return newUser;
-    }, {});
-
-    return userInfo
-  }
-
-  static getUsers(...fields) {
-    // const users = this.#users
-    const newUsers = fields.reduce((newUsers, field) => {
-      if (users.hasOwnProperty(field)) {
-        newUsers[field] = users[field]
-      }
-      return newUsers
-    }, {})
-    console.log(newUsers)
-  }
   static getUserInfo(id) {
-    // const users = this.#users
-    return fs.readFile("./src/database/user.json")
-      .then(data => {
-        return this.#getUserInfo(data, id);
+    // mysql은 promise를 지원하지 않기 때문에 promise 객체를 생성 후 그 안에서
+    // mysql을 실행 시켜야 한다.
+    //실행이 오래걸리는 작업은 promise를 사용하여 함수가 하나의 일만 하도록 함
+    const query = "SELECT *  FROM users WHERE id = ?"
+    return new Promise((resolve, reject) => {
+      db.query(query, [id], (err, data) => {
+        if (err) reject(err)
+        resolve(data[0])
       })
-      .catch(console.err)
-
-    // , (err, data) => {
+    })
   }
 
 
 
-
-  static save(userInfo) {
-    //기존에 db에 있는 정보인지 확인
-    // const users = this.#users
-    users.id.push(userInfo.id)
-    users.name.push(userInfo.name)
-    users.password.push(userInfo.password)
-    console.log(users);
-    return { success: true }
+  static async save(userInfo) {
+    const query = "INSERT INTO users(id,name,password) VALUES (?,?,?)"
+    return new Promise((resolve, reject) => {
+      db.query(query, [userInfo.id, userInfo.name, userInfo.password], (err) => {
+        if (err) reject(err)
+        resolve({ success: true })
+      })
+    })
   }
 }
 
