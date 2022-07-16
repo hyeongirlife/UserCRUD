@@ -14,6 +14,9 @@
 
 const express = require("express")
 const app = express()
+const dotenv = require("dotenv")
+dotenv.config();
+
 // const bodyparser = require("body-parser")
 const PORT = process.env.PORT || 8080
 const home = require("./src/routes/home")
