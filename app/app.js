@@ -15,15 +15,20 @@
 const express = require("express")
 const app = express()
 const dotenv = require("dotenv")
+const morgan = require("morgan")
 dotenv.config();
 
 // const bodyparser = require("body-parser")
 const PORT = process.env.PORT || 8080
 const home = require("./src/routes/home")
+const accessLogStream = require("./src/config/log")
+
+
 
 // url을 "/"으로 이동하게 되면 home 메소드를 실행하게 된다.
 app.use(express.static(`${__dirname}/src/public`))
 app.use(express.json())
+app.use(morgan('common', { stream: accessLogStream }))
 // app.use(express.urlencoded({ extended: true }))
 app.use("/", home)
 
