@@ -1,6 +1,6 @@
 'use strict'
 const { promiseImpl } = require('ejs');
-const db = require("../src/config/db");
+const db = require("../config/db");
 
 class UserStorage {
   static getUserInfo(id) {
@@ -11,7 +11,8 @@ class UserStorage {
     return new Promise((resolve, reject) => {
       db.query(query, [id], (err, data) => {
         if (err) reject(err)
-        resolve(data[0])
+        //else 사용하지 않으면 resolve만 응답함
+        else resolve(data[0])
       })
     })
   }
@@ -23,7 +24,7 @@ class UserStorage {
     return new Promise((resolve, reject) => {
       db.query(query, [userInfo.id, userInfo.name, userInfo.password], (err) => {
         if (err) reject(err)
-        resolve({ success: true })
+        else resolve({ success: true })
       })
     })
   }
