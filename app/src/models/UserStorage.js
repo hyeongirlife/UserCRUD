@@ -10,6 +10,7 @@ class UserStorage {
     const query = "SELECT *  FROM users WHERE id = ?"
     return new Promise((resolve, reject) => {
       db.query(query, [id], (err, data) => {
+        console.log(data[0])
         if (err) reject(err)
         //else 사용하지 않으면 resolve만 응답함
         else resolve(data[0])

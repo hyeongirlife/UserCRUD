@@ -194,3 +194,218 @@
 2022-07-16 23:25:06 :Backend : error : POST /login 200 Response : "success: false, TypeError: Cannot destructure property 'id' of '(intermediate value)' as it is undefined."
 2022-07-16 23:25:06 :Backend : info : POST /login 200 26 - 16.729 ms
 
+2022-07-16 23:58:06 :Backend : info : 8080번 포트에서 server is open
+2022-07-16 23:58:06 :Backend : info : GET/200, "홈 화면으로 이동"
+2022-07-16 23:58:06 :Backend : info : GET / 304 - - 9.839 ms
+
+2022-07-16 23:58:06 :Backend : info : GET/login 200, "로그인 화면으로 이동"
+2022-07-16 23:58:06 :Backend : info : GET /login 200 852 - 3.425 ms
+
+2022-07-16 23:59:06 :Backend : info : 8080번 포트에서 server is open
+2022-07-16 23:59:06 :Backend : info : 8080번 포트에서 server is open
+2022-07-16 23:59:06 :Backend : info : 8080번 포트에서 server is open
+2022-07-16 23:59:06 :Backend : info : 8080번 포트에서 server is open
+2022-07-16 23:59:06 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:00:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:00:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:00:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:00:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:00:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:00:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:01:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:01:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:01:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:01:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:01:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:01:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:01:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:01:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:01:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:01:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:02:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:03:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:04:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:04:00 :Backend : info : GET/login 200, "로그인 화면으로 이동"
+2022-07-17 00:04:00 :Backend : info : GET /login 304 - - 12.961 ms
+
+2022-07-17 00:04:00 :Backend : info : POST /login   Response: true, 성공적으로 로그인 되었습니다."
+2022-07-17 00:04:00 :Backend : info : POST /login 200 71 - 16.401 ms
+
+2022-07-17 00:04:00 :Backend : info : GET/200, "홈 화면으로 이동"
+2022-07-17 00:04:00 :Backend : info : GET / 304 - - 3.286 ms
+
+2022-07-17 00:05:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 00:05:00 :Backend : info : GET/200, "홈 화면으로 이동"
+2022-07-17 00:05:00 :Backend : info : GET / 304 - - 9.900 ms
+
+2022-07-17 00:05:00 :Backend : info : POST /login   Response: true, 성공적으로 로그인 되었습니다."
+2022-07-17 00:05:00 :Backend : info : POST /login 200 71 - 13.958 ms
+
+2022-07-17 00:05:00 :Backend : info : GET/200, "홈 화면으로 이동"
+2022-07-17 00:05:00 :Backend : info : GET / 304 - - 2.425 ms
+
+2022-07-17 20:35:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:35:00 :Backend : info : GET/login 200, "로그인 화면으로 이동"
+2022-07-17 20:35:00 :Backend : info : GET /login 200 852 - 26.313 ms
+
+2022-07-17 20:35:00 :Backend : info : GET /favicon.ico 404 150 - 4.416 ms
+
+2022-07-17 20:36:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:36:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:36:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:36:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:36:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:40:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:40:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:40:00 :Backend : info : POST /login 200  Response: false, 비밀번호가 틀렸습니다."
+2022-07-17 20:40:00 :Backend : info : POST /login 200 62 - 22.892 ms
+
+2022-07-17 20:41:00 :Backend : info : POST /login 200  Response: true, 성공적으로 로그인 되었습니다."
+2022-07-17 20:41:00 :Backend : info : POST /login 200 71 - 37.404 ms
+
+2022-07-17 20:41:00 :Backend : info : GET/200, "홈 화면으로 이동"
+2022-07-17 20:41:00 :Backend : info : GET / 304 - - 9.199 ms
+
+2022-07-17 20:44:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:44:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:44:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:44:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:44:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:44:00 :Backend : info : GET/login 200, "로그인 화면으로 이동"
+2022-07-17 20:44:00 :Backend : info : GET /login 200 852 - 10.281 ms
+
+2022-07-17 20:44:00 :Backend : info : POST /login 200  Response: true, 성공적으로 로그인 되었습니다."
+2022-07-17 20:44:00 :Backend : info : POST /login 200 71 - 16.635 ms
+
+2022-07-17 20:44:00 :Backend : info : GET/200, "홈 화면으로 이동"
+2022-07-17 20:44:00 :Backend : info : GET / 304 - - 3.844 ms
+
+2022-07-17 20:44:00 :Backend : info : POST /login 200  Response: false, 비밀번호가 틀렸습니다."
+2022-07-17 20:44:00 :Backend : info : POST /login 200 62 - 8.636 ms
+
+2022-07-17 20:46:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:47:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:47:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:49:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 20:49:00 :Backend : info : POST /login 200  Response: false, 비밀번호가 틀렸습니다."
+2022-07-17 20:49:00 :Backend : info : POST /login 200 62 - 23.493 ms
+
+2022-07-17 20:49:00 :Backend : info : POST /login 200  Response: false, 비밀번호가 틀렸습니다."
+2022-07-17 20:49:00 :Backend : info : POST /login 200 62 - 16.862 ms
+
+2022-07-17 20:49:00 :Backend : info : POST /login 200  Response: false, 비밀번호가 틀렸습니다."
+2022-07-17 20:49:00 :Backend : info : POST /login 200 62 - 17.986 ms
+
+2022-07-17 20:49:00 :Backend : info : GET/login 304, "로그인 화면으로 이동"
+2022-07-17 20:49:00 :Backend : info : GET /login 200 852 - 4.733 ms
+
+2022-07-17 20:50:00 :Backend : info : GET/login 304, "로그인 화면으로 이동"
+2022-07-17 20:50:00 :Backend : info : GET /login 304 - - 3.360 ms
+
+2022-07-17 20:50:00 :Backend : error : POST /login 400 Response : false, TypeError: Cannot destructure property 'id' of '(intermediate value)' as it is undefined."
+2022-07-17 20:50:00 :Backend : info : POST /login 400 26 - 21.290 ms
+
+2022-07-17 20:53:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:12:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:12:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:13:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:13:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:14:00 :Backend : error : POST /login 400 Response : false, TypeError: Cannot read properties of undefined (reading 'id')"
+2022-07-17 21:14:00 :Backend : info : POST /login 400 26 - 22.152 ms
+
+2022-07-17 21:14:00 :Backend : info : GET/login 304, "로그인 화면으로 이동"
+2022-07-17 21:14:00 :Backend : info : GET /login 304 - - 7.225 ms
+
+2022-07-17 21:14:00 :Backend : error : POST /login 400 Response : false, TypeError: Cannot read properties of undefined (reading 'id')"
+2022-07-17 21:14:00 :Backend : info : POST /login 400 26 - 14.891 ms
+
+2022-07-17 21:14:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:14:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:15:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:15:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:15:00 :Backend : info : GET/login 304, "로그인 화면으로 이동"
+2022-07-17 21:15:00 :Backend : info : GET /login 304 - - 10.890 ms
+
+2022-07-17 21:15:00 :Backend : error : POST /login 400 Response : false, TypeError: Cannot read properties of undefined (reading 'id')"
+2022-07-17 21:15:00 :Backend : info : POST /login 400 26 - 18.594 ms
+
+2022-07-17 21:15:00 :Backend : error : POST /login 400 Response : false, TypeError: Cannot read properties of undefined (reading 'id')"
+2022-07-17 21:15:00 :Backend : info : POST /login 400 26 - 10.168 ms
+
+2022-07-17 21:16:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:16:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:16:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:16:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:16:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:16:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:16:00 :Backend : info : GET/login 304, "로그인 화면으로 이동"
+2022-07-17 21:16:00 :Backend : info : GET /login 304 - - 9.820 ms
+
+2022-07-17 21:16:00 :Backend : error : POST /login 400 Response : false, TypeError: Cannot read properties of undefined (reading 'id')"
+2022-07-17 21:16:00 :Backend : info : POST /login 400 26 - 22.082 ms
+
+2022-07-17 21:16:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:17:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:17:00 :Backend : error : POST /login 400 Response : false, TypeError: Cannot read properties of undefined (reading 'id')"
+2022-07-17 21:17:00 :Backend : info : POST /login 400 26 - 41.088 ms
+
+2022-07-17 21:18:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:18:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:18:00 :Backend : info : GET/login 304, "로그인 화면으로 이동"
+2022-07-17 21:18:00 :Backend : info : GET /login 304 - - 7.822 ms
+
+2022-07-17 21:18:00 :Backend : error : POST /login 400 Response : false, TypeError: Cannot read properties of undefined (reading 'id')"
+2022-07-17 21:18:00 :Backend : info : POST /login 400 26 - 18.228 ms
+
+2022-07-17 21:19:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:19:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:19:00 :Backend : info : GET/login 304, "로그인 화면으로 이동"
+2022-07-17 21:19:00 :Backend : info : GET /login 304 - - 11.551 ms
+
+2022-07-17 21:19:00 :Backend : info : POST /login 200  Response: false, 존재하지 않는 아이디입니다."
+2022-07-17 21:19:00 :Backend : info : POST /login 200 69 - 20.062 ms
+
+2022-07-17 21:19:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:19:00 :Backend : info : GET/login 304, "로그인 화면으로 이동"
+2022-07-17 21:19:00 :Backend : info : GET /login 200 852 - 8.542 ms
+
+2022-07-17 21:19:00 :Backend : error : POST /login 400 Response : false, TypeError: Cannot read properties of undefined (reading 'id')"
+2022-07-17 21:19:00 :Backend : info : POST /login 400 26 - 22.198 ms
+
+2022-07-17 21:19:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:19:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:19:00 :Backend : info : POST /login 200  Response: false, 존재하지 않는 아이디입니다."
+2022-07-17 21:19:00 :Backend : info : POST /login 200 69 - 18.788 ms
+
+2022-07-17 21:21:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:23:00 :Backend : info : 8080번 포트에서 server is open
+2022-07-17 21:25:00 :Backend : info : 8080번 포트에서 server is open

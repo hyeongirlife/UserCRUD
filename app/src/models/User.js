@@ -9,16 +9,17 @@ class User {
     const client = this.body
     //비동기로 login()를 실행시켜 변수를 모두 받아올 때 까지 사용
     try {
-      const { id, password } = await UserStorage.getUserInfo(client.id)
+      const user = await UserStorage.getUserInfo(client.id)
 
-      console.log(id, password)
+      console.log("user###", user)
 
-      if (id) {
-        if (id === client.id && password === client.password) {
-          return { success: true, message: "성공적으로 로그인 되었습니다." }
+      if (user) {
+        if (user.id === client.id && user.password === client.password) {
+          return { success: true }
         }
         return { success: false, message: "비밀번호가 틀렸습니다." }
       }
+      return { success: false, message: "존재하지 않는 아이디입니다." }
     } catch (err) {
       return { success: false, err }
     }
