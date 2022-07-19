@@ -48,7 +48,7 @@ const process = {
   },
 }
 const log = (response, url) => {
-  if (response.err) {v 
+  if (response.err) {
     logger.error(
       `${url.method} ${url.path} ${url.status} Response : ${response.success}, ${response.err}"`
     )

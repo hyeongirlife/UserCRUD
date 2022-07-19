@@ -33,7 +33,7 @@ app.use(express.static(`${__dirname}/src/public`))
 app.use(express.json())
 app.use(morgan("tiny", { stream: logger.stream }))
 // app.use(morgan('commonti', { stream: accessLogStream }))
-// app.use(express.urlencoded({ extended: true }))
+app.use(express.urlencoded({ extended: true }))
 app.use("/", home)
 
 //앱 세팅

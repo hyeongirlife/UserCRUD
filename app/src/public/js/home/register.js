@@ -6,7 +6,6 @@ const password = document.querySelector("#password")
 const registerButton = document.querySelector("#button")
 const confirmPassword = document.querySelector("#confirm-password")
 
-registerButton.addEventListener("click", register)
 
 function register() {
   if (!id) {
@@ -32,13 +31,16 @@ function register() {
   })
     .then(res => res.json())
     .then(res => {
+      console.log("RESRESRES", res)
       if (res.success) {
         location.href = "/login"
       } else {
         if (res.err) return alert(res.err)
         alert(res.message)
+        location.href = "/login"
       }
     })
     .catch(err => console.log(err))
-
 }
+
+registerButton.addEventListener("click", register)
